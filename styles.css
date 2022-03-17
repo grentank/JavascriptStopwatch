@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Poppins&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +5,8 @@
 
 body {
     background: #333D79FF;
-    font-family: 'League Spartan', sans-serif;
+    /*font-family: 'League Spartan', sans-serif;*/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #FAEBEFFF;
     font-size: x-large;
 }
@@ -52,4 +51,5 @@ p {
     background: #FAEBEFFF;
     color: #333D79FF;
     transition: all 0.3s ease-out;
+    cursor: pointer;
 }
